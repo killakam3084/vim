@@ -5,6 +5,7 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
@@ -68,6 +69,7 @@ noremap <C-L> <C-W>l
 noremap <C-N> <Esc>:NERDTreeToggle<CR>
 let mapleader="."
 nnoremap <leader>ev :vsplit $MYVIMRC<CR>
+let NERDTreeShowHidden=1
 
 ""Map tab movement
 noremap <C-U> gT 
